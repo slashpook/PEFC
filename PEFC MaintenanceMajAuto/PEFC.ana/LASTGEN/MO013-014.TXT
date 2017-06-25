@@ -1,0 +1,5 @@
+//MO013-014.TXT ANA00013 TO ANA00014
+TB_TAUX		TAR	33	nouvelle taille enregistrement : 33
+TB_TAUX	TAUX_GRUMME	RUB+		TAUX_GRUMME est une nouvelle rubrique
+TB_TAUX	TAUX_SCIAGE	RUB+		TAUX_SCIAGE est une nouvelle rubrique
+TB_TAUX	TAUX_RABOTAGE	RUB+		TAUX_RABOTAGE est une nouvelle rubrique

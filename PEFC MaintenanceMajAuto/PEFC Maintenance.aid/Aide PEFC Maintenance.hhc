@@ -1,0 +1,63 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<BODY>
+<UL>
+<li><object type="text/sitemap">
+<param name="Name" value="PEFC Maintenance">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Description des fenêtres">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Fenêtre FEN_MENU">
+<param name="Local" value="Fenêtre_FEN_MENU.htm">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Fenêtre FEN_Fiche_TB_CERTIFIE">
+<param name="Local" value="Fenêtre_FEN_Fiche_TB_CERTIFIE.htm">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Fenêtre FEN_Table_TB_CERTIFIE">
+<param name="Local" value="Fenêtre_FEN_Table_TB_CERTIFIE.htm">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Fenêtre FEN_Vision_TB_CERTIFIE">
+<param name="Local" value="Fenêtre_FEN_Vision_TB_CERTIFIE.htm">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Fenêtre FEN_ZR_TB_CERTIFIE">
+<param name="Local" value="Fenêtre_FEN_ZR_TB_CERTIFIE.htm">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Description des états">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Etat ETAT_Details_TB_CERTIFIE">
+<param name="Local" value="Etat_ETAT_Details_TB_CERTIFIE.htm">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Etat ETAT_Liste_TB_CERTIFIE">
+<param name="Local" value="Etat_ETAT_Liste_TB_CERTIFIE.htm">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Divers">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Utilisation du champ table">
+<param name="Local" value="UtilisationTable.htm">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Aperçu avant impression">
+<param name="Local" value="VisualisationEtat.htm">
+</object>
+</ul>
+</ul>
+</UL>
+</BODY>
+</HTML>

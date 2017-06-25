@@ -1,0 +1,3 @@
+//MO003-004.TXT ANA00003 TO ANA00004
+TB_CERTIFIE		TAR	216	nouvelle taille enregistrement : 216
+TB_CERTIFIE	S_VENDU_ECOCERTIF	RUB-		la rubrique S_VENDU_ECOCERTIF est supprimée

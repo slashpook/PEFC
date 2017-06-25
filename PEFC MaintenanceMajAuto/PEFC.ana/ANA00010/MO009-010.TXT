@@ -1,0 +1,14 @@
+//MO009-010.TXT ANA00009 TO ANA00010
+TB_CERTIFIE		TAR	264	nouvelle taille enregistrement : 264
+TB_CERTIFIE	S_POURC_CO	CNW	Réel sur 8 octets$Réel sur 4 octets	la rubrique S_POURC_CO a pour nouveau type Réel sur 8 octets
+TB_CERTIFIE	S_POURC_RE	CNW	Réel sur 8 octets$Réel sur 4 octets	la rubrique S_POURC_RE a pour nouveau type Réel sur 8 octets
+TB_CERTIFIE	S_POURC_CH	CNW	Réel sur 8 octets$Réel sur 4 octets	la rubrique S_POURC_CH a pour nouveau type Réel sur 8 octets
+TB_CERTIFIE	S_POURC_FD	CNW	Réel sur 8 octets$Réel sur 4 octets	la rubrique S_POURC_FD a pour nouveau type Réel sur 8 octets
+TB_CERTIFIE	S_VOLUME_TOT_CO	CNW	Réel sur 8 octets$Réel sur 4 octets	la rubrique S_VOLUME_TOT_CO a pour nouveau type Réel sur 8 octets
+TB_CERTIFIE	S_VOLUME_TOT_RE	CNW	Réel sur 8 octets$Réel sur 4 octets	la rubrique S_VOLUME_TOT_RE a pour nouveau type Réel sur 8 octets
+TB_CERTIFIE	S_VOLUME_TOT_CH	CNW	Réel sur 8 octets$Réel sur 4 octets	la rubrique S_VOLUME_TOT_CH a pour nouveau type Réel sur 8 octets
+TB_CERTIFIE	S_VOLUME_TOT_FD	CNW	Réel sur 8 octets$Réel sur 4 octets	la rubrique S_VOLUME_TOT_FD a pour nouveau type Réel sur 8 octets
+TB_CERTIFIE	S_VOLUME_CERT_CO	CNW	Réel sur 8 octets$Réel sur 4 octets	la rubrique S_VOLUME_CERT_CO a pour nouveau type Réel sur 8 octets
+TB_CERTIFIE	S_VOLUME_CERT_RE	CNW	Réel sur 8 octets$Réel sur 4 octets	la rubrique S_VOLUME_CERT_RE a pour nouveau type Réel sur 8 octets
+TB_CERTIFIE	S_VOLUME_CERT_CH	CNW	Réel sur 8 octets$Réel sur 4 octets	la rubrique S_VOLUME_CERT_CH a pour nouveau type Réel sur 8 octets
+TB_CERTIFIE	S_VOLUME_CERT_FD	CNW	Réel sur 8 octets$Réel sur 4 octets	la rubrique S_VOLUME_CERT_FD a pour nouveau type Réel sur 8 octets

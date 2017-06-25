@@ -1,0 +1,6 @@
+//MO001-002.TXT ANA00001 TO ANA00002
+TB_CERTIFIE		TAR	169	nouvelle taille enregistrement : 169
+TB_CERTIFIE	S_POURC_CO	NNR	S_POURC_CALCUL	ATTENTION : la rubrique S_POURC_CALCUL a pour nouveau nom S_POURC_CO
+TB_CERTIFIE	S_POURC_RE	RUB+		S_POURC_RE est une nouvelle rubrique
+TB_CERTIFIE	S_POURC_CH	RUB+		S_POURC_CH est une nouvelle rubrique
+TB_CERTIFIE	S_POURC_FD	RUB+		S_POURC_FD est une nouvelle rubrique

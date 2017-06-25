@@ -1,0 +1,566 @@
+[WDF]
+Sig=WDF9
+Societe=-
+Appli=PEFC Maintenance
+Version=1.0.0.22
+ModeAppli=1
+WDP=C:\Users\Damien\Desktop\Windev PEFC\PEFC MaintenanceMajAuto\PEFC Maintenance.WDP
+RepBase=C:\Users\Damien\Desktop\Windev PEFC\PEFC MaintenanceMajAuto\EXE
+RepDef=<srProgramFiles>\PEFC Maintenance
+RepFicDef=<srProgramFiles>\PEFC Maintenance
+Autoexec=
+INI=
+Reg=
+PathConf=0
+nLangue=2
+Langue(01)=5
+Langue(02)=3
+VersionOld=
+Historique11=
+Delai=5
+MsgInterdit=Cette application a été verrouillée par son administrateur pour une mise à jour et n'est pas disponible pour le moment.
+MsgAvertissement=Cette application va être interrompue pour une mise à jour. Veuillez sauver toutes vos modifications et quitter l'application.
+MsgStop=ATTENTION : Arrêt de l'application pour mise à jour.
+Reseau=2
+RepClient=
+ProposeBackup=1
+DelaiAuto=60
+ValideAuto=2
+Msg_InstallEnCours=La précédente mise à jour de l'application ne s'est pas terminée correctement et l'application ne peut pas s'exécuter.§Voulez-vous relancer la mise à jour ?
+TagReg=*PEFC Maintenance
+FORMATARC=.ZIP
+GUIDProduit={B3911B0D-6C52-9C46-8865-49F88F797E9A}
+Protocole=LOCAL
+ProposeCC=1
+ImageAppReseau=
+NomConfig=PEFC Maintenance 1
+FreqMAJReseau=0
+URLReseauRef=
+ExeReference=<RepBase>\PEFC Maintenance.EXE
+ProtegeMDP=0
+MDP=
+NiveauMultisite=0
+Scenario=00000000
+
+[GROUPE]
+NBGROUPE=2
+GRP01=_FRAMEWORK
+GRP02=_ER
+
+[COMPO]
+NB=0
+
+[DECOR05]
+DEFAUT=1
+IMGASS=
+LICENCE=
+LISEZMOI=
+GROUPE=PEFC Maintenance
+TITRE=Installation de PEFC Maintenance
+LIBELLE=Installation de PEFC Maintenance
+LOGO=
+TYPEFOND=0
+IMGFOND=
+REPETE=0
+RVB1=0
+RVB2=0
+SENS=0
+NDIAPO=0
+CYCLE=0
+LIBLANGUE=Français
+AFFICHEFOND=0
+TRADLIGHT1=La version suivante va être installée :
+TRADLIGHT2=ATTENTION : Cette mise à jour est définitive. Si vous souhaitez conserver l'ancienne version, vous devez effectuer une sauvegarde avant de commencer l'installation.
+TRADLIGHT3=Répertoire d'installation :
+TRADLIGHT4=Installer
+TRADLIGHT5=Annuler
+TRADLIGHT6=Parcourir...
+TRADLIGHT7=Sélection d'un répertoire de destination pour l'installation
+TRADLIGHT8=Renseignez le répertoire d'installation.
+TRADLIGHT9=Le répertoire n'existe pas. Voulez-vous le créer ?
+TRADLIGHT10=Impossible de créer ce répertoire.
+TRADLIGHT11=Installation
+TRADLIGHT12=L'installation a été réalisée avec succès
+TRADLIGHT13=Installation
+TRADLIGHT14=Voulez-vous lancer la modification automatique des fichiers de données (recommandé) ?
+TRADLIGHT15=Impossible de lancer la modification automatique des fichiers.
+TRADLIGHT16=Installation
+TRADLIGHT17=Voulez-vous lancer l'installation du driver ODBC pour HyperFileSQL ?
+TRADLIGHT18=Installation
+TRADLIGHT19=Erreur pendant la copie de %s vers %s.
+TRADLIGHT20=Installation
+TRADLIGHT21=Voulez-vous arrêter l'installation ?
+TRADLIGHT22=Remplacement de fichier
+TRADLIGHT23=Voulez-vous remplacer le fichier %s ?
+TRADLIGHT24=Impossible d'extraire un fichier
+TRADLIGHT25=Le fichier %s n'a pas pu être extrait. Voulez-vous continuer ? (%d)
+
+[DECOR03]
+DEFAUT=1
+IMGASS=
+LICENCE=
+LISEZMOI=
+GROUPE=PEFC Maintenance
+TITRE=Installing PEFC Maintenance
+LIBELLE=Installing PEFC Maintenance
+LOGO=
+TYPEFOND=0
+IMGFOND=
+REPETE=0
+RVB1=0
+RVB2=0
+SENS=0
+NDIAPO=0
+CYCLE=0
+LIBLANGUE=English
+AFFICHEFOND=0
+TRADLIGHT1=The following version will be installed :
+TRADLIGHT2=CAUTION:  This update is final.  If you wish to keep the old version, you must carry out a backup before beginning the installation.
+TRADLIGHT3=Installation directory :
+TRADLIGHT4=Instal
+TRADLIGHT5=Cancel
+TRADLIGHT6=Step through...
+TRADLIGHT7=Select an installation destination directory
+TRADLIGHT8=Supply installation directory.
+TRADLIGHT9=The directory does not exist. Do you wish to create it?
+TRADLIGHT10=Cannot create the directory.
+TRADLIGHT11=Installation
+TRADLIGHT12=The installation was carried out successfully
+TRADLIGHT13=Installation
+TRADLIGHT14=Do you want to launch automatic data file modification (recommended) ?
+TRADLIGHT15=Cannot launch automatic data file modification .
+TRADLIGHT16=Installation
+TRADLIGHT17=Do you want to launch the installation of the ODBC driver for HyperFileSQL ?
+TRADLIGHT18=Installation
+TRADLIGHT19=Error copying %s to %s.
+TRADLIGHT20=Installation
+TRADLIGHT21=Would you like to stop the installation?
+TRADLIGHT22=Replacement of File
+TRADLIGHT23=Would you like to replace file %s ?
+TRADLIGHT24=Cannot extract the file
+TRADLIGHT25=File %s could not be extracted.  Do you want to continue?(%d)
+
+[DECOR]
+RepCst=0
+Synthese=1
+ExeFin=PEFC Maintenance.exe
+InstProp=3
+ParamRepFic=0
+ParamRepGpw=0
+RepFicCst=0
+IgnoreInstallPrec=0
+
+[HF]
+InstODBC=0
+ConfODBC=0
+Source=PEFC Maintenance	<RepWDP>PEFC.wdd
+ModifAuto=1
+ConfModif=0
+ModifAutoAChaud=1
+Analyse=
+ExeModAuto=PEFC Maintenance.EXE
+nGereModAuto=0
+nGereModAuto55=0
+InstMDAC=0
+CheminMDAC=
+InstDCOM=0
+CheminDCOM=
+INSTOLEDBHF=0
+
+[INST]
+Installeur=1
+InstPrg=<Données>WDSetup.EXE
+Uninst=1
+UninstPrg01=<Données>WDUNINST.DAT
+UninstCmd=WDUNINST.EXE
+TraduireUninst=1
+FicTradUninst=<Données>WDUninst.ini
+DLLInst=10
+DLLInst01=<WinDev>WD150STD.DLL
+DLLInst02=<WinDev>WD150IMG.DLL
+DLLInst03=<WinDev>WD150COM.DLL
+DLLInst04=<WinDev>WD150ZIP.DLL
+DLLInst05=<WinDev>WD150MAT.DLL
+DLLInst06=<WinDev>WD150OLE.DLL
+DLLInst07=<WinDev>WD150PNT.DLL
+DLLInst08=<WinDev>WD150HF.DLL
+DLLInst09=<WinDev>WD150VM.DLL
+DLLInst10=<WinDev>WD150OBJ.DLL
+DLLInternet=0
+
+[GEN]
+Support=3
+TailleDk=1450000
+Lecteur=a
+Formate=0
+TailleSim=1509376
+RepSim=<RepWDP>Install_PEFC Maintenance 1
+RepGen=<RepWDP>Install_PEFC Maintenance 1
+RepAuto=<RepWDP>Install_PEFC Maintenance 1
+NomAuto=PEFC Maintenance
+TemplWeb=1
+RepWeb=<RepWDP>Install_PEFC Maintenance 1
+RepCD=<RepWDP>Install_PEFC Maintenance 1
+CheminMSI=<RepWDP>Install_PEFC Maintenance 1\PEFC Maintenance.MSI
+
+[AUTORUN]
+TypeAutorun=1
+FicIcone=
+TxtTitre=
+TxtGrandTitre=
+ClrGrandTitre=16777215
+TxtSousTitre=
+ClrSousTitre=8388608
+ImgFond=
+ModeFond=C
+ClrFond=8421504
+ClrAffPlus=16777215
+ClrDesc=16777215
+TxtBouton1=
+TxtDesc1=
+Cmd1=
+ClrTxt1=16777215
+Fermer1=1
+TxtBouton2=
+TxtDesc2=
+Cmd2=
+ClrTxt2=16777215
+Fermer2=1
+TxtBouton3=
+TxtDesc3=
+Cmd3=
+ClrTxt3=16777215
+Fermer3=1
+TxtBouton4=
+TxtDesc4=
+Cmd4=
+ClrTxt4=16777215
+Fermer4=1
+TxtBouton5=
+TxtDesc5=
+Cmd5=
+ClrTxt5=16777215
+Fermer5=1
+TxtBouton6=
+TxtDesc6=
+Cmd6=
+ClrTxt6=16777215
+Fermer6=1
+TxtBouton7=
+TxtDesc7=
+Cmd7=
+ClrTxt7=16777215
+Fermer7=1
+TxtBouton8=Fermer
+TxtDesc8=Quitter ce menu
+Cmd8=
+ClrTxt8=16777215
+Fermer8=1
+Coche=Ne plus afficher cette fenêtre au démarrage
+TexteCoche=(Pour réafficher cette fenêtre, maintenez la touche [Ctrl] enfoncée lors de l'insertion du CD.)
+VideRepInstall=0
+
+[POSFEN]
+X01=0
+Y01=0
+L01=0
+H01=0
+X02=0
+Y02=0
+L02=0
+H02=0
+X03=0
+Y03=0
+L03=0
+H03=0
+X04=0
+Y04=0
+L04=0
+H04=0
+
+[FICHIER]
+FICASSIST=0
+NB=4/4
+F00001=1/<RepBase>\/<RepInst>\/CCMenu.WDK/<même nom>/0///0
+PARAM00001=0/0/0////0/0/0/0/0
+ICO00001=0////
+HF00001=0/	/0/
+MDP00001=§
+NBCONNEXION00001=0
+RPL00001=0§0
+F00002=1/<RepBase>\/<RepInst>\/PEFC Maintenance.exe/<même nom>/0///0
+PARAM00002=0/0/0////0/0/0/0/0
+ICO00002=7//PEFC Maintenance/PEFC Maintenance/
+HF00002=3/<RepWDP>PEFC.wdd	/0/<aucune>
+MDP00002=§<aucune>	TB_TAUX	TB_TAUX			§<aucune>	TB_ACHAT	TB_ACHAT			§<aucune>	TB_CERTIFIE	TB_CERTIFIE			§
+NBCONNEXION00002=0
+RPL00002=1§1
+FW00002=4/<RepInst>/0/2/
+FWREN00002=25/WD150VM64.DLL§WD150VM64.DLL§0/WD150OBJ64.DLL§WD150OBJ64.DLL§1/WD150GPU64.DLL§WD150GPU64.DLL§2/WD150MAT64.DLL§WD150MAT64.DLL§3/WD150XML64.DLL§WD150XML64.DLL§4/WD150RTF64.DLL§WD150RTF64.DLL§5/WD150GRF64.DLL§WD150GRF64.DLL§6/WD150HF64.DLL§WD150HF64.DLL§7/WD150STD64.DLL§WD150STD64.DLL§8/WD150PRN64.DLL§WD150PRN64.DLL§9/WD150COM64.DLL§WD150COM64.DLL§10/WD150OLE64.DLL§WD150OLE64.DLL§13/WD150OLDB64.DLL§WD150OLDB64.DLL§17/WD150ETAT64.DLL§WD150ETAT64.DLL§21/WD150IMG64.DLL§WD150IMG64.DLL§25/WD150CPL64.DLL§WD150CPL64.DLL§26/WD150SQL64.DLL§WD150SQL64.DLL§28/WD150HTML64.DLL§WD150HTML64.DLL§29/WD150PDF64.DLL§WD150PDF64.DLL§37/WD150ZIP64.DLL§WD150ZIP64.DLL§42/WD150XLS64.DLL§WD150XLS64.DLL§46/WD150ACTION64.DLL§WD150ACTION64.DLL§53/WD150IMG2_64.DLL§WD150IMG2_64.DLL§58/WD150UNI64.DLL§WD150UNI64.DLL§59/WD150PNT64.DLL§WD150PNT64.DLL§61
+F00003=1/<RepBase>\/<RepInst>\/TipOfTheDay.WDK/<même nom>/0///0
+PARAM00003=0/0/0////0/0/0/0/0
+ICO00003=0////
+HF00003=3/	/0/
+MDP00003=§
+NBCONNEXION00003=0
+RPL00003=0§0
+F00004=1/<RepBase>\/<RepInst>\/WinDev FAA 15.pdf/<même nom>/0///0
+PARAM00004=0/0/0////0/0/0/0/0
+ICO00004=0////
+HF00004=0/	/0/
+MDP00004=§
+NBCONNEXION00004=0
+RPL00004=0§0
+VOIRLISTEFIC=0
+
+[FICSUP]
+NBAUTOSUP=0
+
+[OUTILS]
+NBOUTILS=0
+
+[RACCOURCI]
+NBRACCOURCI=1
+FIC00001=<RepBase>\PEFC Maintenance.exe
+LIB00001=PEFC Maintenance
+GRP00001=PEFC Maintenance
+FLAG00001=7
+PARAM00001=
+
+[WDCOMPOREDIST]
+NBWDCOMPOREDIST=0
+
+[WDETATU]
+UTILISEWDETATU=1
+NBELEMWDETATU=0
+PRJWDETATU=
+ACTIONPRJWDETATU=0
+GRAPHEANALYSE=0
+CHEMINPACKETATU=<ER>PackEtatsEtRequêtes.exe
+INTEGREINSTALLWDETATU=1
+VIER=
+REPERCOMMUN=<RepRef>\Etats et Requêtes Partagés
+REPERUSER=<RepInst>\Etats et Requêtes
+MODIFREPER=0
+INSTALLERCLIENTDEFAUT=1
+
+[LIGHT]
+TITRECHOIXLANGUE=Installation
+SUJETCHOIXLANGUE=Choix de la langue d'installation
+BTOKCHOIXLANGUE=OK
+BTESCCHOIXLANGUE=Annuler
+
+[FTP]
+FTPPERSO=0
+SERVEUR=ftp.pcsoft.fr
+PORT=21
+PASSIF=1
+ANONYME=1
+LOGIN=
+PWD=
+VERSIONAUTO=1
+PROD=1
+VI=0
+VI_DETAIL=0
+MSGPERSO=0
+MSG1=Veuillez insérer la disquette suivante\nDisquette %i attendue.
+MSG2=Installation
+MSG3=Le fichier INSTALL.WDZ n'a pas été trouvé. L'installation ne peut pas se poursuivre.
+MSG4=Impossible de créer le répertoire temporaire : %s. L'installation est abandonnée.
+MSG5=Echec de l'ouverture du fichier %s. L'installation est abandonnée.
+MSG6=Echec de l'extraction du fichier %s. L'installation est abandonnée.
+MSG7=Echec au lancement du programme d'installation : %s. L'installation est abandonnée.
+MSG8=Impossible de contacter le serveur FTP. L'installation est abandonnée.
+MSG9=Impossible de contacter le serveur FTP spécifié dans l'installation. Voulez-vous essayer d'utiliser le serveur de PC SOFT à la place ?
+MSG10=Echec du téléchargement de %s. L'installation est abandonnée.
+MSG11=Préparation de l'installation
+MSG12=Veuillez patienter pendant le téléchargement des éléments de l'installation.
+MSG13=Connexion au serveur FTP
+MSG14=Téléchargement des composants de l'installation
+MSG15=Vérification des éléments téléchargés
+MSG16=Lancement de l'installation
+MSG17=Remarque : pendant la connexion, aucune information n'est envoyée au serveur.
+MSG18=Annuler
+MSG19=Voulez-vous vraiment annuler l'installation ?
+MSG20=Le répertoire %s n'existe pas ou n'est plus accessible sur le serveur FTP, l'installation ne peut pas se poursuivre.
+[MSI]
+NOM_PRODUIT=PEFC Maintenance
+VERSION_PRODUIT=1.0.0.0
+EDITEUR=-
+TITRE=PEFC Maintenance
+AUTEUR=
+CATEGORIE=
+MOTCLE=
+COMMENTAIRE=
+BASE=<Données>WD_Base_FR.msi
+
+[PATCH]
+NBPATCH_SUPPRIME=0
+
+[POCKET]
+INSTALLFRAMEWORK=1
+TYPEPOCKET=1
+PROCESSEUR=0
+UTILISEEVENTPOCKET=0
+EVENTPOCKET=4
+EVENTPOCKET1=-1
+EVENTPOCKET2=-1
+EVENTPOCKET3=-1
+EVENTPOCKET4=-1
+UTILISEBTPOCKET=0
+BTPOCKET=5
+BTPOCKET1=-1
+BTPOCKET2=-1
+BTPOCKET3=-1
+BTPOCKET4=-1
+BTPOCKET5=-1
+SYNCHROHF=0
+NOMAPPLISYNCHRO=PEFC Maintenance
+WDDSYNCHRO_PC=
+WDDSYNCHRO_POCKET=
+NOMEXEPC=
+UTILISESYNCHROPERSO=0
+WDLSYNCHROPERSO=
+UTILISEICONEEXE=1
+PATHFICPCDEFAUT=<REPINST>
+PATHFICPOCKETDEFAUT=<REPINST>
+NBFICSYNCHRO=0
+CHEMINFWWINDEV=
+
+[MODULES]
+INSTALLEAIDEMCU=0
+TELECHARGEAIDEMCU=0
+
+[HFCS]
+INSTALLBASE=0
+CHEMININSTALLBASEWIN=C:\WinDev 15\Install\Serveur HyperFileSQL\WX150PACKHFSQLCS.exe
+CHEMININSTALLBASELINUX=
+PARAMCXGLOBAL=0
+NBCXANA=1
+CX_NOM_1=__Connexion__Classic__Replication__
+CX_DESC_1=Emplacement par défaut des fichiers de l'application
+CX_VALDEFAUT_1=3
+CX_MODIFEXECREMPLACE_1=0
+CXSRC_PROVIDER_1=WinDevHF7
+CXSRC_ADRESSE_1=
+CXSRC_PORT_1=0
+CXSRC_DATABASE_1=
+CXSRC_USER_1=
+CXSRC_PASS_1=
+CXSRC_EXTINFO_1=
+CXSRC_ACCES_1=0
+CXSRC_OPTIONSCURSEUR_1=0
+CXDEST_PROVIDER_1=WinDevHF7
+CXDEST_ADRESSE_1=
+CXDEST_PORT_1=0
+CXDEST_DATABASE_1=
+CXDEST_USER_1=
+CXDEST_PASS_1=
+CXDEST_EXTINFO_1=<srAppDataCommun>\PEFC Maintenance
+CXDEST_ACCES_1=0
+CXDEST_OPTIONSCURSEUR_1=0
+NBFICHF=3
+FIC_NOM_1=TB_TAUX
+FIC_INST_1=0
+FIC_SRCAUTO_1=1
+FIC_SRC_AUTO_1=C:\Users\Damien\Desktop\Windev PEFC\PEFC MaintenanceMajAuto\EXE\TB_TAUX.FIC
+FIC_SRC_1=C:\Users\Damien\Desktop\Windev PEFC\PEFC MaintenanceMajAuto\EXE\TB_TAUX.FIC
+FIC_CXDEST_1=1
+FIC_DEST_1=TB_TAUX
+FIC_REINDEXE_1=1
+FIC_NOM_2=TB_ACHAT
+FIC_INST_2=0
+FIC_SRCAUTO_2=1
+FIC_SRC_AUTO_2=C:\Users\Damien\Desktop\Windev PEFC\PEFC MaintenanceMajAuto\EXE\TB_ACHAT.FIC
+FIC_SRC_2=C:\Users\Damien\Desktop\Windev PEFC\PEFC MaintenanceMajAuto\EXE\TB_ACHAT.FIC
+FIC_CXDEST_2=1
+FIC_DEST_2=TB_ACHAT
+FIC_REINDEXE_2=1
+FIC_NOM_3=TB_CERTIFIE
+FIC_INST_3=0
+FIC_SRCAUTO_3=1
+FIC_SRC_AUTO_3=C:\Users\Damien\Desktop\Windev PEFC\PEFC MaintenanceMajAuto\EXE\TB_CERTIFIE.FIC
+FIC_SRC_3=C:\Users\Damien\Desktop\Windev PEFC\PEFC MaintenanceMajAuto\EXE\TB_CERTIFIE.FIC
+FIC_CXDEST_3=1
+FIC_DEST_3=TB_CERTIFIE
+FIC_REINDEXE_3=1
+
+[FRAMEWORK]
+MODEINSTALLFW=1
+
+[RPL]
+nModeReplication=1
+bModeReplicationModifExec=0
+bModeReplicationExecRemplace=0
+sAnalyse=C:\Users\Damien\Desktop\Windev PEFC\PEFC MaintenanceMajAuto\PEFC.wdd
+sMdpAnalyse=
+nTypeMaitre=0
+sCheminWER=
+sURLServeur=
+sLoginServeur=
+sPwdServeur=
+bSynchroAuto=0
+bMaitreRPLModifExec=0
+bMaitreRPLModifExecRemplace=0
+sNomPublication=
+bFairePublication=0
+nParamCxMaitre=0
+nbtabCxMaitre=1
+tabCxMaitre_1sNom=__Connexion__Classic__Replication__
+tabCxMaitre_1sDesc=Emplacement par défaut des fichiers de l'application
+tabCxMaitre_1nValDefaut=3
+tabCxMaitre_1bUtiliseDefaut=0
+tabCxMaitre_1bModifExecRemplace=0
+tabCxMaitre_1sSrc_Provider=WinDevHF7
+tabCxMaitre_1sSrc_Adresse=
+tabCxMaitre_1nSrc_Port=0
+tabCxMaitre_1sSrc_Database=
+tabCxMaitre_1sSrc_User=
+tabCxMaitre_1sSrc_Pwd=
+tabCxMaitre_1sSrc_ExtInfo=
+tabCxMaitre_1nSrc_Acces=0
+tabCxMaitre_1nSrc_OptionsCurseur=0
+tabCxMaitre_1sDest_Provider=WinDevHF7
+tabCxMaitre_1sDest_Adresse=
+tabCxMaitre_1nDest_Port=0
+tabCxMaitre_1sDest_Database=
+tabCxMaitre_1sDest_User=
+tabCxMaitre_1sDest_Pwd=
+tabCxMaitre_1sDest_ExtInfo=<srAppDataCommun>\PEFC Maintenance
+tabCxMaitre_1nDest_Acces=0
+tabCxMaitre_1nDest_OptionsCurseur=0
+nParamCxLocal=2
+nbtabCxLocal=1
+tabCxLocal_1sNom=__Connexion__Classic__Replication__
+tabCxLocal_1sDesc=Emplacement par défaut des fichiers de l'application
+tabCxLocal_1nValDefaut=3
+tabCxLocal_1bUtiliseDefaut=0
+tabCxLocal_1bModifExecRemplace=0
+tabCxLocal_1sSrc_Provider=WinDevHF7
+tabCxLocal_1sSrc_Adresse=
+tabCxLocal_1nSrc_Port=0
+tabCxLocal_1sSrc_Database=
+tabCxLocal_1sSrc_User=
+tabCxLocal_1sSrc_Pwd=
+tabCxLocal_1sSrc_ExtInfo=
+tabCxLocal_1nSrc_Acces=0
+tabCxLocal_1nSrc_OptionsCurseur=0
+tabCxLocal_1sDest_Provider=WinDevHF7
+tabCxLocal_1sDest_Adresse=
+tabCxLocal_1nDest_Port=0
+tabCxLocal_1sDest_Database=
+tabCxLocal_1sDest_User=
+tabCxLocal_1sDest_Pwd=
+tabCxLocal_1sDest_ExtInfo=<srAppDataCommun>\PEFC Maintenance
+tabCxLocal_1nDest_Acces=0
+tabCxLocal_1nDest_OptionsCurseur=0
+
+InstallSrvRPL=0
+CheminInstallRPLWin=C:\WinDev 15\Install\WDServeurR\WX150PACKRSRV.exe
+
+[RPC]
+INSTALLRPC=0
+
+[SERVICE]
+INSTALLSERVICE=0
+
